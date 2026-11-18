@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Data and database
+data/
+*.csv
+*.db
+*.sqlite3
+
+# ML models
+*.pkl
+*.joblib
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Windows
+Thumbs.db
+.DS_Store
